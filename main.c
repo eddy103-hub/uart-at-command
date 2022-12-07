@@ -59,8 +59,8 @@ int main(void) {
     // Disable the Global Interrupts 
     //INTERRUPT_GlobalInterruptDisable(); 
     Timer0_OverflowCallbackRegister(timer0Cb);
-    while (1) {
-        ATCMD_Task();
+    while (1) {   
+            ATCMD_Task();      
 
     }
 }

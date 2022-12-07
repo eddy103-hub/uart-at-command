@@ -28,11 +28,11 @@
 
 #include "at_commander.h"
 #include "sensorHandling.h"
-const char my_ap[] = "iPhone13";
-const char my_pw[] = "eddymeshack";
+const char my_ap[] = "your SSID";
+const char my_pw[] = "your password";
 const char my_ts[] = "pool.ntp.org";
-const char my_ba[] = "a3a2c3qx9uoi5k-ats.iot.us-east-2.amazonaws.com";
-const char my_ci[] = "pic32";
+const char my_ba[] = "your aws endpoint";
+const char my_ci[] = "your DeviceId";
 const char ok_res[] = "OK\r\n>";
 static char json[MQTT_PAYLOAD_SIZE]; //-added 
 

@@ -1,0 +1,9 @@
+/debug/
+/dist/
+/build/
+/nbproject/Makefile-default.mk
+/nbproject/private/
+/nbproject/Makefile-impl.mk
+/nbproject/Makefile-local-default.mk
+/nbproject/Makefile-genesis.properties
+/nbproject/Makefile-variables.mk
